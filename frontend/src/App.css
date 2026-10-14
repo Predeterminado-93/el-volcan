@@ -182,3 +182,34 @@
     border-right-color: var(--border);
   }
 }
+
+header {
+  background-color: #263238;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+main {
+  padding: 48px 24px;
+  min-height: 300px;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 16px;
+  text-align: center;
+}
