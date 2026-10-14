@@ -1,8 +1,9 @@
-function Header() {
+function Header({ nombre, mensaje, subtitulo } ) {
     return(
         <header>
-            <h1>El Volcán - Tu energía, más cerca.</h1>
-                <p>Gas para tu hogar y negocio.</p>
+            <h1>{nombre}</h1>
+                <p>{mensaje}</p>
+                <p>{subtitulo}</p>
         </header>
         )
 }

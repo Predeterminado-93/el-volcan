@@ -7,7 +7,11 @@ function App() {
   return (
     <>
               
-      <Header />
+      <Header 
+        nombre="El Volcán"
+        mensaje="Gas para tu hogar y negocio"
+        subtitulo="Tu energía, más cerca."
+      />
 
       <main>
         <section>
