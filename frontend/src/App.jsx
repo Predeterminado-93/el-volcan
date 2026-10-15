@@ -2,6 +2,8 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import ProductList from './components/ProductList'
+import products from './data/products'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <p>
             Conoce nuestros productos y servicios.
           </p>
+          <ProductList products={products} />
+
           <button type="button">
             Explorar catálogo
           </button>
