@@ -2,7 +2,7 @@ import ProductCard from './ProductCard'
 
 function ProductList({products}) {
     return(
-        <section>
+        <section className="product-list">
             {products.map((product) => (
                 <ProductCard
                     key={product.id}
